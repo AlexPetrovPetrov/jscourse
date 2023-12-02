@@ -1,6 +1,13 @@
-let js = 'amazing';
-if (js === 'amazing') alert('JavaScript is fun');
-40 + 8 + 23 - 10
-console.log(40 + 8 + 23 - 10)
-console.log('Hello world!')
-alert('The world is amazing')
+let cup = "coffe"
+cup = "tea"
+console.log(cup)
+console.log(cup)
+console.log(cup)
+console.log(cup)
+console.log(cup)
+console.log(cup)
+
+let counterPeter = 12
+counterPeter = 3
+let conterAlex = 24
+console.log(counterPeter + conterAlex) 
