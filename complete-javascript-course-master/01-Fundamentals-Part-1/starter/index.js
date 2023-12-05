@@ -19,3 +19,14 @@ console.log(typeof population)
 let numberA = 5
 let numberB = 15
 console.log(numberA + numberB)
+let pumkin = 'seeds'
+pumkin = 'seasoning'
+const birthYear = 1996
+// birthYear = 2011
+var eggplant = 'slices'
+eggplant = 'organicOil'
+let age = 13
+const name = 'Alex'
+age = name
+console.log(typeof age)
+
