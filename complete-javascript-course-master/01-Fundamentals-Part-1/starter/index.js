@@ -1,17 +1,11 @@
-// assigment operators: = ++ -- += -= *= /=
-let a = 5
-let b = 10
-a++
-console.log(a)
-b--
-console.log(b)
-console.log(b--)
-console.log(b)
-console.log(--b)
-a += 7 // a = a + 7
-b -= 6
-console.log(b)
-b /= 4
-console.log(b)
-a *= 4
-console.log(a)
+// comparison operators: > < >= <=  === !==
+const a = 3
+const b = 5
+const c = 3
+console.log(a > b)
+console.log(a < b)
+console.log(a >= b)
+console.log(a >= c)
+console.log(a !== c)
+console.log(a === c)
+console.log(b !== c)
