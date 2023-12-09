@@ -1,15 +1,17 @@
-//Math operators: + - * / ** ^
-const petarAge = 20
-const alexAge = 12
-console.log(alexAge + petarAge)
-const ageDifernce = petarAge - alexAge
-console.log(ageDifernce)
-const multiplyAges = alexAge * petarAge
-console.log(multiplyAges)
-const divadeAges = alexAge / petarAge
-console.log(divadeAges)
-const expression = 12 + (3 * 4) - 1
-console.log(expression)
-const bit = 2 ** 7
-console.log(bit)
-console.log(expression + bit)
+// assigment operators: = ++ -- += -= *= /=
+let a = 5
+let b = 10
+a++
+console.log(a)
+b--
+console.log(b)
+console.log(b--)
+console.log(b)
+console.log(--b)
+a += 7 // a = a + 7
+b -= 6
+console.log(b)
+b /= 4
+console.log(b)
+a *= 4
+console.log(a)
