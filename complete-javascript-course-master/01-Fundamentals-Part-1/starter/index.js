@@ -1,22 +1,11 @@
-let alexGradeInMath = 3
-if (alexGradeInMath >= 4.50) {
-    console.log('Great job Alex')
-} else {
-    console.log('You really need to practise!!!!!!!!!')
-}
-let currentSpeed = 61
-const speedLimit = 60
-if (currentSpeed <= speedLimit) {
-    console.log('Have nice ride.')
-} else {
-    console.log('Please slow down.')
-}
-if (currentSpeed < speedLimit) {
-    console.log('Have a nice ride.')
-}
-const name = 'Alex'
-{
-    console.log(name)
-    const age = 42
-}
-console.log(age)
+//Type conversion 
+const inputYear = '1994'
+console.log(Number(inputYear) + 18)
+const name = 345
+console.log(String(name) + 'old')
+
+//TYPE coercion
+const snowman = '90'
+console.log(snowman - 50)
+const tree = 87
+console.log(tree + '34')
