@@ -1,14 +1,12 @@
-function logger() {
-    console.log('My name is Alex')
+// using function declaration
+function calcAge1(birthYear) {
+    return 2024 - birthYear;
 }
-// calling / running / invoking function
-logger();
-
-function fruitProcessor(apples, oranges) {
-    console.log(apples, oranges)
-    const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
-    return juice;
+const age1 = calcAge1(2011);
+console.log(age1)
+//Using function expression
+const calcAge2 = function (birthYear) {
+    return 2024 - birthYear
 }
-
-const fruitJuice = fruitProcessor(5, 9);
-console.log(fruitJuice);
+const age2 = calcAge2(2005)
+console.log(age1, age2)
