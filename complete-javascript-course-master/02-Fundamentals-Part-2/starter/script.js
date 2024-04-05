@@ -1,20 +1,24 @@
-//using arrow function
-const calcAge3 = birthyear => 2037 - birthyear;
-const age3 = calcAge3(2011);
-console.log(age3)
-const yearstillRetirement = (birthYeah, firstName) => {
-    const age = 2037 - birthYeah;
-    const retirement = 65 - age;
-    return `${firstName} retires in ${retirement}
-    years`;
+function cutFruitPieces(fruit) {
+    return fruit * 4;
 }
 
-console.log(yearstillRetirement(2011, 'Alex'));
-const yearsUntillDriversLicense = (birthYear, firstName) => {
-    const age = 2024 - birthYear;
-    const canBuyCar = 18 - age;
-    return `${firstName}can buy a car in ${canBuyCar} years`;
+function fruitProcessor(apples, oranges) {
+    const applePieces = cutFruitPieces(apples);
+    const orangePieces = cutFruitPieces(oranges);
+
+    const juice = `Juice with ${applePieces} apples and ${orangePieces} pieces of orange.`;
+    return juice;
 }
-console.log(yearsUntillDriversLicense(2011, 'Alex'))
+console.log(fruitProcessor(2, 3));
 
+function moneyMultiplayer(money) {
+    return money * 4;
+}
+function bankAccount(netWorth, moneyInTheBank) {
+    const netWorthMultiplayer = moneyMultiplayer(netWorth);
+    const moneyInTheBankMultiplayer = moneyMultiplayer(moneyInTheBank);
 
+    const loopWholeInTheMatrix = `Money in net worth stocks ${netWorthMultiplayer} and money in my bank account ${moneyInTheBankMultiplayer}`;
+    return loopWholeInTheMatrix;
+}
+console.log(bankAccount(200000, 1000000));
