@@ -22,3 +22,20 @@ function bankAccount(netWorth, moneyInTheBank) {
     return loopWholeInTheMatrix;
 }
 console.log(bankAccount(200000, 1000000));
+// function expression
+function trashBurner(givenTrash) {
+    gaveTrash = givenTrash - givenTrash
+    return gaveTrash;
+}
+console.log(trashBurner(9))
+//function declarations
+function deathCalc(birthYear) {
+    return 80 - birthYear;
+}
+const yearsToLive = deathCalc(12)
+console.log(yearsToLive)
+//function expression arrow
+const carsInGarden = averageCarCollection => 20 - averageCarCollection;
+const collection = carsInGarden(2);
+console.log(`the rich people have ${collection} more cars than the average family`)
+
