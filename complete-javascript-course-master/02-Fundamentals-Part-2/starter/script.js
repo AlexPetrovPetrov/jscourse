@@ -39,3 +39,18 @@ const carsInGarden = averageCarCollection => 20 - averageCarCollection;
 const collection = carsInGarden(2);
 console.log(`the rich people have ${collection} more cars than the average family`)
 
+const calcAverage = (a, b, c) => (a + b + c) / 3;
+console.log(3, 4, 5)
+const scoreDolphins = calcAverage(44, 23, 71);
+const scoreKoalas = calcAverage(65, 54, 49);
+const checkWinner = function (avgDolphins, avgKoalas) {
+    if (avgKoalas >= 2 * avgDolphins) {
+        console.log(`Koalas win ${avgKoalas} vs. ${avgKoalas}.`);
+    } else if (avgDolphins >= 2 * avgKoalas) {
+        console.log(`Dolphins win ${avgDolphins} vs. ${avgKoalas}.`);
+    } else {
+        console.log("No team has met the winning conditions");
+    }
+}
+checkWinner(scoreDolphins, scoreKoalas);
+checkWinner(576, 111); 
