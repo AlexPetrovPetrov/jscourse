@@ -1,7 +1,3 @@
-for (let rep = 1; rep <= 10; rep++) {
-    console.log(`Football training ${rep}`)
-};
-
 const alex = [
     'Alex',
     'Petrov',
@@ -9,26 +5,15 @@ const alex = [
     'student',
     ['Dinev', 'Yoan', 'Marti'],
     true
-]
-const types = [];
-for (let i = 0; i < 5; i++) {
-    console.log(alex[i], typeof alex[i]);
+];
 
-    types.push(typeof alex[i]);
+for (let i = alex.length - 1; i >= 0; i--) {
+    console.log(i, alex[i]);
 }
+for (let exercise = 1; exercise < 4; exercise++) {
+    console.log(`--------Starting exercise ${exercise}`)
 
-console.log(types);
-
-const years = [1991, 2007, 1699, 2020];
-const ages = [];
-for (let i = 0; i < years.length; i++) {
-    ages.push(2024 - years[i])
-}
-console.log(ages);
-//continue and break statement
-console.log(' ------ only Stirngs ------')
-for (let i = 0; i < 5; i++) {
-    if (typeof alex[i] !== 'number') break;
-
-    console.log(alex[i], typeof alex[i]);
+    for (let rep = 1; rep < 6; rep++) {
+        console.log(`Lifting weight repetition ${rep}`)
+    }
 }
