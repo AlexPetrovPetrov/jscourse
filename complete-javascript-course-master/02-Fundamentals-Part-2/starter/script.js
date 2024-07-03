@@ -1,19 +1,15 @@
-const alex = [
-    'Alex',
-    'Petrov',
-    2024 - 2011,
-    'student',
-    ['Dinev', 'Yoan', 'Marti'],
-    true
-];
-
-for (let i = alex.length - 1; i >= 0; i--) {
-    console.log(i, alex[i]);
+let performance = 1;
+while (performance <= 10) {
+    console.log(`The young rock star performed on stage ${performance} times in New York!!🤘`);
+    performance++;
 }
-for (let exercise = 1; exercise < 4; exercise++) {
-    console.log(`--------Starting exercise ${exercise}`)
 
-    for (let rep = 1; rep < 6; rep++) {
-        console.log(`Lifting weight repetition ${rep}`)
+let dice = Math.trunc(Math.random() * 6) + 1;
+while (dice !== 6) {
+    console.log(`The dice rolled and the number was ${dice}`);
+    dice = Math.trunc(Math.random() * 6) + 1;
+    if (dice === 6) {
+        console.log('The loop is about to end...🔚')
     }
+
 }
