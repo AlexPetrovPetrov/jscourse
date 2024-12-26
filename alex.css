@@ -1,0 +1,15 @@
+p {
+    font-size: medium;
+    background-color: chartreuse;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background: linear-gradient(to right,#0F2027,#203A43,#2C5364);
+}
+h1 {
+    font-family: "Oi", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: azure;
+    outline: black, 10px;
+}
