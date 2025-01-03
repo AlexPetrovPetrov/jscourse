@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(58, 169, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(58, 169, 180, 1) 19%,
+    rgba(252, 253, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 81%
+  );
+}
+#calculator {
+  font-family: Arial, sans-serif;
+  background-color: hsl(0, 0%, 20%);
+  max-width: 500px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+#display {
+  width: 100%;
+  padding: 20px;
+  font-size: 70px;
+  text-align: left;
+  border: none;
+  background-color: hsl(0, 0%, 15%);
+  color: white;
+}
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 25px;
+  box-shadow: 20px 20px 10px orange;
+}
+button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: none;
+  background-color: hsl(0, 0%, 35%);
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: hsl(0, 0%, 40%);
+  box-shadow: -2px 3px 3px 1px #656665;
+}
+button:active {
+  background-color: hsl(0, 0%, 50%);
+}
+.operarion-btn {
+  background-color: orange;
+}
+.operarion-btn:hover {
+  background-color: hsl(39, 100%, 60%);
+}
+.operarion-btn:active {
+  background-color: hsl(39, 100%, 70%);
+}
